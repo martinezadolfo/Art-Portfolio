@@ -1,9 +1,32 @@
+
 body {
-    background-color: aquamarine
+    background-color: aquamarine;
 }
 
-.video-container {
+.container {
+    padding-top: 50px;
+    max-width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.lalos img {
+    width: 100%;
+    display: block;
+}
+
+.art img {
+    width: 100%;
+    display: block;
+}
+
+.symbols img {
+    width: 100%;
+    display: block;
 }
