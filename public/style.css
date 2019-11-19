@@ -1,10 +1,8 @@
-
 body {
     background-color: aquamarine;
 }
 
 .container {
-    padding-top: 50px;
     max-width: 80%;
     margin: auto;
     display: flex;
@@ -12,21 +10,27 @@ body {
     align-items: center;
 }
 
-.hide {
-    visibility: hidden;
+.lalos {
+    display: flex;
+    flex-direction: row;
 }
 
-.lalos img {
-    width: 100%;
-    display: block;
+.art {
+    display: flex;
+    flex-direction: row;
 }
 
-.art img {
-    width: 100%;
-    display: block;
+.photo {
+    max-width: 100%;
 }
 
-.symbols img {
+.icon {
+    height: 200px;
+}
+
+
+.cell img {
     width: 100%;
     display: block;
+    border: solid black 2px;
 }
